@@ -1,0 +1,14 @@
+{
+  "name": "spades-institute-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spades Institute Ready Room MVP — static site deployed to GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node build.mjs && cd dist && python3 -m http.server 8765"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2"
+  }
+}
